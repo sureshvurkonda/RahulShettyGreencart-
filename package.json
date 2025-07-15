@@ -1,0 +1,28 @@
+{
+  "name": "playwrightrahulshetty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "install": "npm install",
+    "project": "npx playwright test tests/standardUser.test.js --project=chromium",
+    "ui": "npx playwright test test tests/standardUser.test.js --ui",
+    "headed": "npx playwright test tests/standardUser.test.js --headed",
+    "test:smoke": "npx playwright test --grep @smoke --project='chromium'",
+    "test:regression": "npx playwright test --grep @regression --project='chromium'",
+    "test:allure":"allure generate ./allure-results -o ./allure-report",
+    "allure-install":"npm i -D allure-playwright"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.5.4",
+    "allure-playwright": "^3.0.4"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}

@@ -1,0 +1,1 @@
+export const backtoHome = '#back-to-products';

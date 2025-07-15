@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","19619","Login to App as a standard user","chromium","Wed Oct 02 18:15:53 IST 2024","passed","Wed Oct 02 18:16:12 IST 2024","@smoke: Login as a standard user to verify the products page and logout from the application","standardUser.test.js","",""
